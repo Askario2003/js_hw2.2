@@ -87,6 +87,9 @@ else if (time === 22){
 else if (time === 23){ 
     alert(el + night)
 }
+else if (isNaN(time)){
+    alert('введите время числами')
+}
 else {
     alert( 'в сутках только 24 часа')
 }
